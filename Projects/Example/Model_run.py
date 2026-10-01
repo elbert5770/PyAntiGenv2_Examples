@@ -1,8 +1,8 @@
 import os
 import sys
 
-from Engine.Model_simulate import setup_simulation
-from Engine.Model_optimize import (
+from pyantigen.engine.Model_simulate import setup_simulation
+from pyantigen.engine.Model_optimize import (
     setup_optimization_from_groups,
     _FULL_DIAGNOSTICS,
     _SLICE_ONLY,
@@ -202,6 +202,7 @@ if __name__ == "__main__":
             "Verbose": True,
             "save_SBML?": False,
             "MODEL_NAME": model_name_to_use,
+            "REPO_ROOT": REPO_ROOT,
             "slice_analysis": False,
             "fit_mode": "evaluate_x0" if args.no_fit else "optimize",
             # Prefixes every figure/CSV name with the example name so runs
@@ -253,7 +254,8 @@ if __name__ == "__main__":
             "run_steady_state_first": False,
             "Verbose": True,
             "save_SBML?": False,
-            "MODEL_NAME": model_name_to_use
+            "MODEL_NAME": model_name_to_use,
+            "REPO_ROOT": REPO_ROOT,
         }
 
         setup_simulation(run_settings, fig_config)

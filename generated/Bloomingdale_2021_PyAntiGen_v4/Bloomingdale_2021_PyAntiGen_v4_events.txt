@@ -1,0 +1,2 @@
+at (time > 0): Antibody_Plasma = 16800.0
+at (time > 0): Gadobutrol_CSF = 1000

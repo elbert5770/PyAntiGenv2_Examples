@@ -1,0 +1,69 @@
+Parameter,Value,Comment
+k12mAb,2.50E-06,Fitted to aducanumab PK data 6
+k13Abeta,1.7222E-09,"7,23-25"
+k13Aolig,1.7222E-09,"7,23-25"
+k13BACE,1.7222E-09,"7,23-25"
+k13mAb,1.7222E-09,23-25
+k14Abeta,1.4811E-04,Scaled from mice data 26
+k14Aolig,1.4811E-06,"Fitted to Aβ baseline data 1,3"
+k14BACE,2.0056E-08,Fitted to BACEs data in CSF 12
+k14mAb,1.6045E-06,Fitted to CSF aducanumab data (internal)
+k14mix,1.6045E-06,Assumed to have the same transport rate as Aβ oligomer
+k21mAb,1.00E-06,Fitted to aducanumab PK data 6
+k31Abeta,4.1667E-05,"7,23-25"
+k31Aolig,4.1667E-05,"7,23-25"
+k31BACE,4.1667E-05,"7,23-25"
+k31mAb,4.1667E-05,23-25
+k41Abeta,1.4811E-05,"Fitted to Aβ baseline data 1,3"
+k41Aolig,1.4811E-08,"Fitted to Aβ baseline data 1,3"
+k41BACE,8.0226E-05,Fitted to BACEs data in CSF 12
+k41mAb,0.0032,Fitted to CSF aducanumab data (internal)
+k41mix,1.4811E-08,Assumed to have the same transport rate as Aβ oligomer
+k43Abeta,1.5509E-05,"Fitted to Aβ baseline data 2,4,5 and SILK data 7"
+k43Aolig,2.3264E-08,"Fitted to Aβ baseline data 2,4,5"
+k43BACE,1.5509E-05,Assumed to be same as Aβ monomer
+k43mAb,1.5509E-05,Fitted to CSF aducanumab data (internal)
+k43mix,2.3264E-08,Assumed to have the same transport rate as Aβ oligomer
+kcatADCP,0.0036,Fitted to SUVR data 8
+kcatBACE,0.0072,19
+kcatGamma,0.0017,20
+kclearAbeta_bisf,1.9254E-05,"27 This paper showed amyloid level in SUVR increase over time for two decades before it reaches the steady state. Therefore, natural plaque formation and clearance are assumed to be very slow"
+kclearAbeta_plasma,9.627E-05,14
+kclearAolig_bisf,2.204E-08,"Fitted to Aβ baseline data 1,3"
+kclearAolig_plasma,9.627E-05,14
+kclearAplaque_bisf,4.408E-09,28
+kclearAPP,4.8135E-05,Fitted to SILK data 7
+kclearBACE,1.2034E-05,11
+kclearBACEs,6.418E-05,Fitted to BACEs data 12
+kclearFcR,1.9254E-04,Typical receptor turnover rate29
+kclearGamma,1.9254E-04,Fitted to Aβ data 13
+kclearmAb,1.4586E-06,Fitted to aducanumab PK data 6
+kcleave,2.00E-07,Fitted to BACEs data 12
+kG2M_bisf,1.40E-08,"Fit Aβ baseline data in brain 1,3"
+kG2M_csf,0.0028,"Fit Aβ baseline data in CSF 2,4,5"
+kG2M_plasma,140000,Assumed to be large enough so that oligomerization in plasma is negligible
+kG2P,7.00E-08,"Fit Aβ baseline data in brain 1,3"
+kinfusion,0.00E+00,
+kM2G,1.40E-05,"21,22 Calculated based on that in vitro at low Aβ concentration (still higher than in human), oligomerization process takes up to 20 hours"
+kmAb0,10,Fitted to plasma Aβ data with aducanumab 6
+kmAb1,0.018,Assume drug has same binding affinity to oligomer as plaque
+kmAb2,0.018,Fitted to SUVR data 8
+koffBACE,119.9928,16-18
+koffGamma,215.9983,20
+koffPF,1.00E+01,Assumed ADCP to be in linear range for all the dose tested
+konPD,1.00E-03,Typical value for protein-protein  binding rate constant15
+konPF,1.00E-03,Typical value for protein-protein  binding rate constant15
+konPP,1.00E-03,Typical value for protein-protein  binding rate constant15
+kP2G_bisf,7.00E-11,Assume to be slower than plaque degradation rate so that it has no impact on plaque concentration
+ksynthAPP_bisf,2.5127E-04,"1,3"
+ksynthAPP_plasma,0.0014,10
+ksynthBACE_bisf,1.0365E-04,Fitted to Aβ baseline data 6 and BACEs data 12
+ksynthBACE_plasma,0.0011,Fitted to Aβ baseline data 6 and BACEs data 12
+ksynthFcR_bisf,5.0253E-05,Assumed high FcR concentration so that ADCP process is linear for the dose range tested
+ksynthGamma_bisf,2.5127,Fitted to Aβ data 13
+ksynthGamma_plasma,28.8811,Fitted to Aβ data 13
+V_BrainISF,0.261,
+V_CSF,0.139,
+V_IV,1,
+V_Peripheral,3,
+V_Plasma,3,

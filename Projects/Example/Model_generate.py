@@ -7,7 +7,7 @@ import sys
 import AntiGen_paths
 
 
-from framework.pyantigen import PyAntiGen
+from pyantigen.generate.pyantigen import PyAntiGen
 from antimony_modules.Basic.ma_reaction import BasicMAReaction, BasicChainReaction
 
 def generate_antimony_model(Isotopes=['']):

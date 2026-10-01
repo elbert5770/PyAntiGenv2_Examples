@@ -1,4 +1,4 @@
-from framework.data_interpolation import generate_antimony_piecewise
+from pyantigen.generate.data_interpolation import generate_antimony_piecewise
 
 def generate_no_events(replicate, df_dict):
     events = '' 

@@ -1,0 +1,8 @@
+compartment Comp1 := V_Comp1
+
+substanceOnly species A_Comp1 in Comp1
+substanceOnly species B_Comp1 in Comp1
+substanceOnly species C_Comp1 in Comp1
+
+Basic_A_to_B_Comp1 : A_Comp1 -> B_Comp1; k_A_to_B * (A_Comp1/V_Comp1) * V_Comp1
+Basic_B_to_C_Comp1 : B_Comp1 -> C_Comp1; k_B_to_C * (B_Comp1/V_Comp1) * V_Comp1
