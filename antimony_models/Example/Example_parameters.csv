@@ -1,0 +1,4 @@
+Parameter,Value,Units,Comment
+k_A_to_B,0.1,,Default rate constant for A to B
+k_B_to_C,0.0,,Default rate constant for B to C (0 disables the chain step)
+V_Comp1,1.0,,Default compartment volume

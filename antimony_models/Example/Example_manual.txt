@@ -1,0 +1,3 @@
+SF = 1.0
+predicted_A := A_Comp1/V_Comp1
+predicted_B := SF*B_Comp1/V_Comp1
