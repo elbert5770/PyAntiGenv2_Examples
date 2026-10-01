@@ -2,7 +2,7 @@
 Basic module with a single MA reaction A -> B.
 """
 
-from framework.module_base import PyAntiGenModule
+from pyantigen.generate.module_base import PyAntiGenModule
 
 class BasicMAReaction(PyAntiGenModule):
     """

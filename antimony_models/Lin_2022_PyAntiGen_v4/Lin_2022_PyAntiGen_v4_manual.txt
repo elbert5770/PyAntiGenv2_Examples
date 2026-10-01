@@ -1,0 +1,7 @@
+totalmAbPlasma    :=    Antibody_Plasma + AB42__Antibody_Plasma + AB42_Oligomer__Antibody_Plasma
+totalmAbCSF        :=   Antibody_CSF + AB42__Antibody_CSF + AB42_Oligomer__Antibody_CSF
+totalAbetaPlasma  :=    AB42_Plasma + AB42__Antibody_Plasma 
+totaloligPlasma := AB42_Oligomer_Plasma + AB42_Oligomer__Antibody_Plasma
+totalPlaque       :=    AB42_Plaque_BrainISF + AB42_Plaque__Antibody_BrainISF + AB42_Plaque__Antibody__FcR_BrainISF
+totaloligISF     :=     AB42_Oligomer_BrainISF + AB42_Oligomer__Antibody_BrainISF 
+totalAbetaBrainISF := AB42_BrainISF + AB42__Antibody_BrainISF 

@@ -1,0 +1,152 @@
+at (time >= 0.0 ): Q_Leak = 15.0
+at (time >= 3.0 ): Q_Leak = 0.0
+at (time > 20.0): Q_Leak = Q_CSF-Q_SN
+at (time >= 30.0): Q_Leak = 0.0
+at (time >= 48.0): Q_Leak = 0.0
+at (time >= 0): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 0 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 0 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 1): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 1 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 1 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 2): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 2 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 2 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 3): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 3 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 3 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 4): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 4 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 4 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 5): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 5 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 5 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 6): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 6 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 6 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 7): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 7 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 7 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 8): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 8 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 8 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 9): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 9 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 9 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 10): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 10 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 10 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 11): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 11 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 11 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 12): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 12 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 12 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 13): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 13 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 13 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 14): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 14 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 14 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 15): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 15 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 15 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 16): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 16 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 16 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 17): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 17 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 17 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 18): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 18 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 18 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 19): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 19 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 19 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 20): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 20 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 20 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 21): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 21 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 21 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 22): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 22 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 22 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 23): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 23 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 23 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 24): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 24 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 24 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 25): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 25 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 25 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 26): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 26 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 26 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 27): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 27 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 27 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 28): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 28 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 28 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 29): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 29 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 29 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 30): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 30 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 30 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 31): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 31 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 31 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 32): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 32 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 32 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 33): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 33 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 33 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 34): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 34 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 34 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 35): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 35 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 35 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 36): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 36 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 36 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 37): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 37 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 37 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 38): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 38 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 38 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 39): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 39 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 39 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 40): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 40 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 40 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 41): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 41 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 41 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 42): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 42 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 42 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 43): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 43 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 43 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 44): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 44 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 44 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 45): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 45 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 45 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 46): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 46 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 46 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+at (time >= 47): Q_SN = 0.0, Q_LP = Q_CSF, Q_refill = Q_CSF - V_LP/t_CSFdraw
+at (time >= 47 + t_CSFdraw):  Q_refill = Q_CSF
+at (time >= 47 + V_LP/Q_CSF): Q_SN = f_SN*Q_CSF, Q_LP = Q_Leak, Q_refill = 0
+
+V_SP3 := piecewise(34.87516696, time < 0, (34.87516696 + (-4.260499302 * (time - 0)) / 0.1), time < 0.1, (30.614667658 + (4.260499302 * (time - 0.1)) / 0.244926564668731), time < 0.344926564668731, 34.87516696, time < 1, (34.87516696 + (-4.260499302 * (time - 1)) / 0.1), time < 1.1, (30.614667658 + (4.260499302 * (time - 1.1)) / 0.244926564668731), time < 1.34492656466873, 34.87516696, time < 2, (34.87516696 + (-4.260499302 * (time - 2)) / 0.1), time < 2.1, (30.614667658 + (4.260499302 * (time - 2.1)) / 0.244926564668731), time < 2.34492656466873, 34.87516696, time < 3, (34.87516696 + (-4.260499302 * (time - 3)) / 0.1), time < 3.1, (30.614667658 + (4.260499302 * (time - 3.1)) / 0.244926564668731), time < 3.34492656466873, 34.87516696, time < 4, (34.87516696 + (-4.260499302 * (time - 4)) / 0.0999999999999996), time < 4.1, (30.614667658 + (4.260499302 * (time - 4.1)) / 0.244926564668732), time < 4.34492656466873, 34.87516696, time < 5, (34.87516696 + (-4.260499302 * (time - 5)) / 0.0999999999999996), time < 5.1, (30.614667658 + (4.260499302 * (time - 5.1)) / 0.244926564668732), time < 5.34492656466873, 34.87516696, time < 6, (34.87516696 + (-4.260499302 * (time - 6)) / 0.0999999999999996), time < 6.1, (30.614667658 + (4.260499302 * (time - 6.1)) / 0.244926564668732), time < 6.34492656466873, 34.87516696, time < 7, (34.87516696 + (-4.260499302 * (time - 7)) / 0.0999999999999996), time < 7.1, (30.614667658 + (4.260499302 * (time - 7.1)) / 0.244926564668732), time < 7.34492656466873, 34.87516696, time < 8, (34.87516696 + (-4.260499302 * (time - 8)) / 0.0999999999999996), time < 8.1, (30.614667658 + (4.260499302 * (time - 8.1)) / 0.244926564668731), time < 8.34492656466873, 34.87516696, time < 9, (34.87516696 + (-4.260499302 * (time - 9)) / 0.0999999999999996), time < 9.1, (30.614667658 + (4.260499302 * (time - 9.1)) / 0.244926564668731), time < 9.34492656466873, 34.87516696, time < 10, (34.87516696 + (-4.260499302 * (time - 10)) / 0.0999999999999996), time < 10.1, (30.614667658 + (4.260499302 * (time - 10.1)) / 0.244926564668731), time < 10.3449265646687, 34.87516696, time < 11, (34.87516696 + (-4.260499302 * (time - 11)) / 0.0999999999999996), time < 11.1, (30.614667658 + (4.260499302 * (time - 11.1)) / 0.244926564668731), time < 11.3449265646687, 34.87516696, time < 12, (34.87516696 + (-4.260499302 * (time - 12)) / 0.0999999999999996), time < 12.1, (30.614667658 + (4.260499302 * (time - 12.1)) / 0.244926564668731), time < 12.3449265646687, 34.87516696, time < 13, (34.87516696 + (-4.260499302 * (time - 13)) / 0.0999999999999996), time < 13.1, (30.614667658 + (4.260499302 * (time - 13.1)) / 0.244926564668731), time < 13.3449265646687, 34.87516696, time < 14, (34.87516696 + (-4.260499302 * (time - 14)) / 0.0999999999999996), time < 14.1, (30.614667658 + (4.260499302 * (time - 14.1)) / 0.244926564668731), time < 14.3449265646687, 34.87516696, time < 15, (34.87516696 + (-4.260499302 * (time - 15)) / 0.0999999999999996), time < 15.1, (30.614667658 + (4.260499302 * (time - 15.1)) / 0.244926564668731), time < 15.3449265646687, 34.87516696, time < 16, (34.87516696 + (-4.260499302 * (time - 16)) / 0.100000000000001), time < 16.1, (30.614667658 + (4.260499302 * (time - 16.1)) / 0.244926564668731), time < 16.3449265646687, 34.87516696, time < 17, (34.87516696 + (-4.260499302 * (time - 17)) / 0.100000000000001), time < 17.1, (30.614667658 + (4.260499302 * (time - 17.1)) / 0.244926564668731), time < 17.3449265646687, 34.87516696, time < 18, (34.87516696 + (-4.260499302 * (time - 18)) / 0.100000000000001), time < 18.1, (30.614667658 + (4.260499302 * (time - 18.1)) / 0.244926564668731), time < 18.3449265646687, 34.87516696, time < 19, (34.87516696 + (-4.260499302 * (time - 19)) / 0.100000000000001), time < 19.1, (30.614667658 + (4.260499302 * (time - 19.1)) / 0.244926564668731), time < 19.3449265646687, 34.87516696, time < 20, (34.87516696 + (-4.260499302 * (time - 20)) / 0.100000000000001), time < 20.1, (30.614667658 + (4.260499302 * (time - 20.1)) / 0.244926564668731), time < 20.3449265646687, 34.87516696, time < 21, (34.87516696 + (-4.260499302 * (time - 21)) / 0.100000000000001), time < 21.1, (30.614667658 + (4.260499302 * (time - 21.1)) / 0.244926564668731), time < 21.3449265646687, 34.87516696, time < 22, (34.87516696 + (-4.260499302 * (time - 22)) / 0.100000000000001), time < 22.1, (30.614667658 + (4.260499302 * (time - 22.1)) / 0.244926564668731), time < 22.3449265646687, 34.87516696, time < 23, (34.87516696 + (-4.260499302 * (time - 23)) / 0.100000000000001), time < 23.1, (30.614667658 + (4.260499302 * (time - 23.1)) / 0.244926564668731), time < 23.3449265646687, 34.87516696, time < 24, (34.87516696 + (-4.260499302 * (time - 24)) / 0.100000000000001), time < 24.1, (30.614667658 + (4.260499302 * (time - 24.1)) / 0.244926564668731), time < 24.3449265646687, 34.87516696, time < 25, (34.87516696 + (-4.260499302 * (time - 25)) / 0.100000000000001), time < 25.1, (30.614667658 + (4.260499302 * (time - 25.1)) / 0.244926564668731), time < 25.3449265646687, 34.87516696, time < 26, (34.87516696 + (-4.260499302 * (time - 26)) / 0.100000000000001), time < 26.1, (30.614667658 + (4.260499302 * (time - 26.1)) / 0.244926564668731), time < 26.3449265646687, 34.87516696, time < 27, (34.87516696 + (-4.260499302 * (time - 27)) / 0.100000000000001), time < 27.1, (30.614667658 + (4.260499302 * (time - 27.1)) / 0.244926564668731), time < 27.3449265646687, 34.87516696, time < 28, (34.87516696 + (-4.260499302 * (time - 28)) / 0.100000000000001), time < 28.1, (30.614667658 + (4.260499302 * (time - 28.1)) / 0.244926564668731), time < 28.3449265646687, 34.87516696, time < 29, (34.87516696 + (-4.260499302 * (time - 29)) / 0.100000000000001), time < 29.1, (30.614667658 + (4.260499302 * (time - 29.1)) / 0.244926564668731), time < 29.3449265646687, 34.87516696, time < 30, (34.87516696 + (-4.260499302 * (time - 30)) / 0.100000000000001), time < 30.1, (30.614667658 + (4.260499302 * (time - 30.1)) / 0.244926564668731), time < 30.3449265646687, 34.87516696, time < 31, (34.87516696 + (-4.260499302 * (time - 31)) / 0.100000000000001), time < 31.1, (30.614667658 + (4.260499302 * (time - 31.1)) / 0.244926564668731), time < 31.3449265646687, 34.87516696, time < 32, (34.87516696 + (-4.260499302 * (time - 32)) / 0.100000000000001), time < 32.1, (30.614667658 + (4.260499302 * (time - 32.1)) / 0.244926564668731), time < 32.3449265646687, 34.87516696, time < 33, (34.87516696 + (-4.260499302 * (time - 33)) / 0.100000000000001), time < 33.1, (30.614667658 + (4.260499302 * (time - 33.1)) / 0.244926564668731), time < 33.3449265646687, 34.87516696, time < 34, (34.87516696 + (-4.260499302 * (time - 34)) / 0.100000000000001), time < 34.1, (30.614667658 + (4.260499302 * (time - 34.1)) / 0.244926564668731), time < 34.3449265646687, 34.87516696, time < 35, (34.87516696 + (-4.260499302 * (time - 35)) / 0.100000000000001), time < 35.1, (30.614667658 + (4.260499302 * (time - 35.1)) / 0.244926564668731), time < 35.3449265646687, 34.87516696, time < 36, (34.87516696 + (-4.260499302 * (time - 36)) / 0.100000000000001), time < 36.1, (30.614667658 + (4.260499302 * (time - 36.1)) / 0.244926564668731), time < 36.3449265646687, 34.87516696, time < 37, (34.87516696 + (-4.260499302 * (time - 37)) / 0.100000000000001), time < 37.1, (30.614667658 + (4.260499302 * (time - 37.1)) / 0.244926564668731), time < 37.3449265646687, 34.87516696, time < 38, (34.87516696 + (-4.260499302 * (time - 38)) / 0.100000000000001), time < 38.1, (30.614667658 + (4.260499302 * (time - 38.1)) / 0.244926564668731), time < 38.3449265646687, 34.87516696, time < 39, (34.87516696 + (-4.260499302 * (time - 39)) / 0.100000000000001), time < 39.1, (30.614667658 + (4.260499302 * (time - 39.1)) / 0.244926564668731), time < 39.3449265646687, 34.87516696, time < 40, (34.87516696 + (-4.260499302 * (time - 40)) / 0.100000000000001), time < 40.1, (30.614667658 + (4.260499302 * (time - 40.1)) / 0.244926564668731), time < 40.3449265646687, 34.87516696, time < 41, (34.87516696 + (-4.260499302 * (time - 41)) / 0.100000000000001), time < 41.1, (30.614667658 + (4.260499302 * (time - 41.1)) / 0.244926564668731), time < 41.3449265646687, 34.87516696, time < 42, (34.87516696 + (-4.260499302 * (time - 42)) / 0.100000000000001), time < 42.1, (30.614667658 + (4.260499302 * (time - 42.1)) / 0.244926564668731), time < 42.3449265646687, 34.87516696, time < 43, (34.87516696 + (-4.260499302 * (time - 43)) / 0.100000000000001), time < 43.1, (30.614667658 + (4.260499302 * (time - 43.1)) / 0.244926564668731), time < 43.3449265646687, 34.87516696, time < 44, (34.87516696 + (-4.260499302 * (time - 44)) / 0.100000000000001), time < 44.1, (30.614667658 + (4.260499302 * (time - 44.1)) / 0.244926564668731), time < 44.3449265646687, 34.87516696, time < 45, (34.87516696 + (-4.260499302 * (time - 45)) / 0.100000000000001), time < 45.1, (30.614667658 + (4.260499302 * (time - 45.1)) / 0.244926564668731), time < 45.3449265646687, 34.87516696, time < 46, (34.87516696 + (-4.260499302 * (time - 46)) / 0.100000000000001), time < 46.1, (30.614667658 + (4.260499302 * (time - 46.1)) / 0.244926564668731), time < 46.3449265646687, 34.87516696, time < 47, (34.87516696 + (-4.260499302 * (time - 47)) / 0.100000000000001), time < 47.1, (30.614667658 + (4.260499302 * (time - 47.1)) / 0.244926564668731), time < 47.3449265646687, 34.87516696, time >= 47.3449265646687)
+f_13C6Leu := piecewise(0, time < 0, 0.1672, time < 1, (0.1672 + (-0.00969999999999999 * (time - 1)) / 1), time < 2, (0.1575 + (0.0101 * (time - 2)) / 1), time < 3, (0.1676 + (0.00670000000000001 * (time - 3)) / 1), time < 4, (0.1743 + (-0.0263 * (time - 4)) / 1), time < 5, (0.148 + (0.0251 * (time - 5)) / 1), time < 6, (0.1731 + (-0.00970000000000001 * (time - 6)) / 1), time < 7, (0.1634 + (0.0111 * (time - 7)) / 1), time < 8, (0.1745 + (0.00330000000000003 * (time - 8)) / 1), time < 9, (0.1778 + (-0.13 * (time - 9)) / 1), time < 10, (0.0478 + (-0.0237 * (time - 10)) / 1), time < 11, (0.0241 + (-0.0093 * (time - 11)) / 1), time < 12, (0.0148 + (-0.0013 * (time - 12)) / 1), time < 13, (0.0135 + (0.000180249 * (time - 13)) / 1), time < 14, (0.013680249 + (-0.000450669000000001 * (time - 14)) / 1), time < 15, (0.01322958 + (-0.000435820999999999 * (time - 15)) / 1), time < 16, (0.012793759 + (-0.000421464999999999 * (time - 16)) / 1), time < 17, (0.012372294 + (-0.000407580000000001 * (time - 17)) / 1), time < 18, (0.011964714 + (-0.000394153 * (time - 18)) / 1), time < 19, (0.011570561 + (-0.000381169000000001 * (time - 19)) / 1), time < 20, (0.011189392 + (-0.000368611999999999 * (time - 20)) / 1), time < 21, (0.01082078 + (-0.000356469 * (time - 21)) / 1), time < 22, (0.010464311 + (-0.000344725000000001 * (time - 22)) / 1), time < 23, (0.010119586 + (-0.00033337 * (time - 23)) / 1), time < 24, (0.009786216 + (-0.000322387 * (time - 24)) / 1), time < 25, (0.009463829 + (-0.000311766 * (time - 25)) / 1), time < 26, (0.009152063 + (-0.000301497 * (time - 26)) / 1), time < 27, (0.008850566 + (-0.000291564000000001 * (time - 27)) / 1), time < 28, (0.008559002 + (-0.000281959 * (time - 28)) / 1), time < 29, (0.008277043 + (-0.000272669999999999 * (time - 29)) / 1), time < 30, (0.008004373 + (-0.000263688000000001 * (time - 30)) / 1), time < 31, (0.007740685 + (-0.000255000999999999 * (time - 31)) / 1), time < 32, (0.007485684 + (-0.000246601 * (time - 32)) / 1), time < 33, (0.007239083 + (-0.000238477 * (time - 33)) / 1), time < 34, (0.007000606 + (-0.000230621 * (time - 34)) / 1), time < 35, (0.006769985 + (-0.000223023 * (time - 35)) / 1), time < 36, (0.006546962 + (-0.000215677 * (time - 36)) / 1), time < 37, (0.006331285 + (-0.000208571 * (time - 37)) / 1), time < 38, (0.006122714 + (-0.0002017 * (time - 38)) / 1), time < 39, (0.005921014 + (-0.000195056 * (time - 39)) / 1), time < 40, (0.005725958 + (-0.00018863 * (time - 40)) / 1), time < 41, (0.005537328 + (-0.000182416 * (time - 41)) / 1), time < 42, (0.005354912 + (-0.000176407 * (time - 42)) / 1), time < 43, (0.005178505 + (-0.000170596 * (time - 43)) / 1), time < 44, (0.005007909 + (-0.000164974999999999 * (time - 44)) / 1), time < 45, (0.004842934 + (-0.000159541 * (time - 45)) / 1), time < 46, (0.004683393 + (-0.000154285000000001 * (time - 46)) / 1), time < 47, (0.004529108 + (-0.000149201999999999 * (time - 47)) / 1), time < 48, 0, time >= 48)

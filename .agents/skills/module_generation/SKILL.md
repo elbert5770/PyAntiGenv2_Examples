@@ -11,7 +11,7 @@ When asked to generate new reactions or modules for a new project in the PyAntiG
 - The module must be implemented as a Python class that inherits from `PyAntiGenModule`.
 - Import the base class at the top of the file:
   ```python
-  from framework.module_base import PyAntiGenModule
+  from pyantigen.generate.module_base import PyAntiGenModule
   ```
 - The class must implement a `build(self)` method.
 
@@ -76,7 +76,7 @@ When adding reactions, the `Rate_type` must be carefully specified along with a 
 ## 8. Complete Module Example
 
 ```python
-from framework.module_base import PyAntiGenModule
+from pyantigen.generate.module_base import PyAntiGenModule
 
 class Example_FlowsModule(PyAntiGenModule):
     \"\"\"

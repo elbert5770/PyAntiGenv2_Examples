@@ -1,0 +1,21 @@
+Q_Leak_0 = 0.0 # mL
+Q_Leak = Q_Leak_0
+Q_LP = 0 # mL
+Q_refill_0 = 0 # mL
+Q_refill = Q_refill_0
+f_SN = 0.1 # fraction of CSF lost down spinal nerves
+Q_SN_0 = Q_CSF*f_SN
+Q_SN = Q_SN_0
+V_LP = 6 # mL
+V_SP3_0 = 34.87516696 # mL
+V_SP3 = V_SP3_0
+t_CSFdraw = 0.1 # h
+
+Q_Leak_base = 0.0 # mL
+
+SF38 = 0.9683501175461801
+SF40 = 0.8900218041449683
+SF42 = 0.846010156
+
+var f_13C6Leu = 0
+
